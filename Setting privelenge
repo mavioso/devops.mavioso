@@ -1,1 +1,1 @@
-sudo chown -R [USER NAME]:[USER NAME] /var/www
+sudo chown -R [USER NAME].[USER NAME] /var/www
