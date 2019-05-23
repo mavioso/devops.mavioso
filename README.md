@@ -1,0 +1,2 @@
+# devops.mavioso
+Server setting
