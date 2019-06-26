@@ -1,0 +1,22 @@
+# Viewing cron entries
+sudo crontab -l
+
+# Editing cron entries
+sudo crontab -e
+
+# The basic syntax for a crontab entry expression is:
+m h d mon dow command
+
+
+# schedule cron job
+sudo crontab -u username -e
+
+# to run a cron job as the “www-data” user, use the following command:
+sudo crontab -u www-data -e
+
+# Reviewing cron activity with email
+MAILTO=youremail@yourdomain.com
+
+# If you want to ensure that a job ran and don’t want an email, you can also check the cron logs
+sudo grep crontab syslog
+
