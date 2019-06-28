@@ -20,3 +20,6 @@ MAILTO=youremail@yourdomain.com
 # If you want to ensure that a job ran and don’t want an email, you can also check the cron logs
 sudo grep crontab syslog
 
+# example
+01 * * * * /home/devops/bakups/mysqlbackup.sh
+
