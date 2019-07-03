@@ -1,12 +1,12 @@
 #!/bin/bash
 # Database credentials
 user="testuser"
-password="nothinghell"
+password="P@ssw0rd"
 host="localhost"
 db_name="testdb"
 # Other options
-backup_path="/home/devops/bakups/db"
-date=$(date +"%d-%b-%Y")
+backup_path="/home/devops/backup/DB"
+date=$(date +"%d-%b-%Y-%H%M%S")
 # Set default file permissions
 umask 177
 # Dump database into SQL file
