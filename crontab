@@ -23,3 +23,6 @@ sudo grep crontab syslog
 # example
 01 * * * * /home/devops/bakups/mysqlbackup.sh
 
+# fix 
+5 * * * *  /home/devops/backup/mybackup.sh >> /var/log/backupcrontab.log
+
